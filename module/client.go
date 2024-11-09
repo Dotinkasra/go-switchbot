@@ -19,7 +19,7 @@ type apiResponse struct {
 func GetToken() (string, error) {
 	token := os.Getenv("SWITCHBOT_TOKEN")
 	if token == "" {
-		return "", fmt.Errorf("don't exists setting file")
+		return "", fmt.Errorf("the environment variable for the token is not set")
 	}
 	return token, nil
 }
