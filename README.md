@@ -84,3 +84,6 @@ func main() {
 ### `Scenes` Struct
 - **`GetScenes() ([]Scene, error)`**: Retrieves all available scenes.
 - **`Execute()`**: Executes the scene.
+
+## License
+MIT
